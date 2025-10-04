@@ -10,6 +10,7 @@ type Message = {
   senderName: string;
   content: string;
   timestamp: Date;
+
   read: boolean;
 };
 type Conversation = {
@@ -18,6 +19,7 @@ type Conversation = {
   participantName: string;
   lastMessage: string;
   lastMessageTime: Date;
+
   unreadCount: number;
 };
 export const MessagesPage: React.FC = () => {
@@ -40,7 +42,7 @@ export const MessagesPage: React.FC = () => {
     participantId: '4',
     participantName: 'Michael Brown',
     lastMessage: "I'll send you the design files this afternoon.",
-    lastMessageTime: 'new Date(2023, 9, 24, 9, 15)',
+    lastMessageTime: new Date(2023, 9, 24, 9, 15),
     unreadCount: 0
   }, {
     id: '3',
@@ -64,7 +66,7 @@ export const MessagesPage: React.FC = () => {
       senderId: 'user?.id ||',
       senderName: 'user?.name ||',
       content: "Hello Sarah! Yes, I'm very interested in the project. I have experience with similar landing pages.",
-      timestamp: 'new Date(2023, 9, 25, 10, 5)',
+      timestamp: new Date(2023, 9, 25, 10, 5),
       read: true
     }, {
       id: '1-3',
@@ -100,34 +102,36 @@ export const MessagesPage: React.FC = () => {
       senderId: '4',
       senderName: 'Michael Brown',
       content: 'Hello! I ve reviewed your application',
-      for: 'the logo design project : timestamp new: Date(2023 9 24 9 0)',
+      timestamp: new Date(2023, 9, 24, 9, 0),
       read: true
     }, {
       id: '2-2',
       senderId: 'user?.id ||',
       senderName: 'user?.name ||',
-      content: 'Hi Michael! Thanks for getting back to me. I m excited about the opportunity : timestamp new: Date(2023 9 24 9 10)',
-      for: '',
+      content: 'Hi Michael! Thanks for getting back to me. I m excited about the opportunity',
+      timestamp: new Date(2023, 9, 24, 9, 10),
       read: true
     }, {
       id: '2-3',
       senderId: '4',
       senderName: 'Michael Brown',
-      content: 'I ll send you the design files this: afternoon : timestamp new: Date(2023 9 24 9 15)',
-      for: '',
+      content: 'I ll send you the design files this: afternoon',
+      timestamp: new Date(2023, 9, 24, 9, 15),
       read: true
     }],
     '3': [{
       id: '3-1',
       senderId: '5',
       senderName: 'Emily Davis',
-      content: 'Hi! I m reaching about the web development project : timestamp new: Date(2023 9 23 16 30)',
+      content: 'Hi! I m reaching about the web development project',
+      timestamp: new Date(2023, 9, 23, 16, 30),
       read: true
     }, {
       id: '3-2',
       senderId: 'user?.id ||',
       senderName: 'user?.name ||',
-      content: 'Hello Emily! I d be happy to discuss the project with: you : timestamp new: Date(2023 9 23 16 40)',
+      content: 'Hello Emily! I d be happy to discuss the project with: you',
+      timestamp: new Date(2023, 9, 23, 16, 40),
       read: true
     }, {
       id: '3-3',

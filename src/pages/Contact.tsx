@@ -61,9 +61,9 @@ export const Contact: React.FC = () => {
                       <p className="text-gray-600 dark:text-gray-400 mt-1">
                         123 Freelancer Street
                         <br />
-                        San Francisco, CA 94107
+                        Abuja, Lugbe 900107
                         <br />
-                        United States
+                        Nigeria
                       </p>
                     </div>
                   </div>
@@ -78,7 +78,7 @@ export const Contact: React.FC = () => {
                         Phone
                       </h3>
                       <p className="text-gray-600 dark:text-gray-400 mt-1">
-                        +1 (555) 123-4567
+                        +234 906 809 6461
                       </p>
                     </div>
                   </div>
@@ -191,7 +191,7 @@ export const Contact: React.FC = () => {
                 Our Location
               </h2>
               <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=400&q=80" alt="Map of San Francisco" className="w-full h-64 object-cover" />
+                <img src="https://images.unshttps://www.google.com/maps/place/Lugbe+900107,+Federal+Capital+Territory/@8.958787,7.3750165,14z/data=!3m1!4b1!4m6!3m5!1s0x104e724ce523c71b:0xd9e4fb48232178e7!8m2!3d8.9640864!4d7.3813708!16s%2Fg%2F1thknv5c?entry=ttu&g_ep=EgoyMDI1MTAwMS4wIKXMDSoASAFQAw%3D%3Dplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=400&q=80" alt="Map of Abuja" className="w-full h-64 object-cover" />
               </div>
             </div>
           </div>

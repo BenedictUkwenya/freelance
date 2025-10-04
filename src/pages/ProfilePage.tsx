@@ -4,7 +4,7 @@ import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { useAuth } from '../contexts/AuthContext';
 import { motion } from 'framer-motion';
-import { UserIcon, StarIcon, BriefcaseIcon, CalendarIcon, MapPinIcon, MailIcon, LinkIcon, CheckCircleIcon } from 'lucide-react';
+import { UserIcon, StarIcon, BriefcaseIcon, CalendarIcon, MapPinIcon, MailIcon, LinkIcon, CheckCircleIcon, DollarSignIcon } from 'lucide-react';
 export const ProfilePage: React.FC = () => {
   const {
     id

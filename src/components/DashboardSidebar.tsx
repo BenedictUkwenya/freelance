@@ -67,7 +67,7 @@ export const DashboardSidebar: React.FC = () => {
     icon: <BriefcaseIcon className="h-5 w-5" />,
     label: 'Post a Job'
   }, {
-    to: '/client/manage-jobs',
+    to: '/client/job-listings',
     icon: <ClipboardListIcon className="h-5 w-5" />,
     label: 'Manage Jobs'
   }, {
